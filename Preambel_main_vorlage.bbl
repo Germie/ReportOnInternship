@@ -1,0 +1,446 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Olsson.2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=befe31eaaf3a222ca98aa29fafd2223e}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \strng{fullhash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \strng{bibnamehash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \strng{authorbibnamehash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \strng{authornamehash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \strng{authorfullhash}{befe31eaaf3a222ca98aa29fafd2223e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Composites Part A: Applied Science and Manufacturing}
+      \field{title}{Mass criterion for wave controlled impact response of composite plates}
+      \field{volume}{31}
+      \field{year}{2000}
+      \field{pages}{879\bibrangedash 887}
+      \range{pages}{9}
+      \verb{file}
+      \verb 7664b1bb-fa43-4a11-a832-39a4b5699838:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\7664b1bb-fa43-4a11-a832-39a4b5699838.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Hertz.1881}{article}{}
+      \name{author}{1}{}{%
+        {{hash=805368c06cfef5f3ec8be75c0254161a}{%
+           family={Hertz},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{805368c06cfef5f3ec8be75c0254161a}
+      \strng{fullhash}{805368c06cfef5f3ec8be75c0254161a}
+      \strng{bibnamehash}{805368c06cfef5f3ec8be75c0254161a}
+      \strng{authorbibnamehash}{805368c06cfef5f3ec8be75c0254161a}
+      \strng{authornamehash}{805368c06cfef5f3ec8be75c0254161a}
+      \strng{authorfullhash}{805368c06cfef5f3ec8be75c0254161a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal f{ü}r die reine und angewandte Mathematik}
+      \field{number}{92}
+      \field{title}{{Ü}ber die Ber{ü}hrung fester elastischer K{ö}rper}
+      \field{volume}{92}
+      \field{year}{1881}
+      \field{pages}{156\bibrangedash 171}
+      \range{pages}{16}
+      \verb{file}
+      \verb 3f89b35c-0f7b-467f-947c-5c3c71ef6d21:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\3f89b35c-0f7b-467f-947c-5c3c71ef6d21.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Karas.1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a37fffecae87f204befe634777909410}{%
+           family={Karas},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a37fffecae87f204befe634777909410}
+      \strng{fullhash}{a37fffecae87f204befe634777909410}
+      \strng{bibnamehash}{a37fffecae87f204befe634777909410}
+      \strng{authorbibnamehash}{a37fffecae87f204befe634777909410}
+      \strng{authornamehash}{a37fffecae87f204befe634777909410}
+      \strng{authorfullhash}{a37fffecae87f204befe634777909410}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ing. Arch}
+      \field{title}{Platten unter seitlichem Sto{ß}}
+      \field{volume}{10}
+      \field{year}{1939}
+      \field{pages}{237\bibrangedash 250}
+      \range{pages}{14}
+      \verb{file}
+      \verb 4979aa45-2386-4944-a706-668031e16479:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\4979aa45-2386-4944-a706-668031e16479.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Timoshenko.1922}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2c0d10498a8f10bf3d7aa1ca95af50bc}{%
+           family={Timoshenko},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \strng{fullhash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \strng{bibnamehash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \strng{authorbibnamehash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \strng{authornamehash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \strng{authorfullhash}{2c0d10498a8f10bf3d7aa1ca95af50bc}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Der Bauingenieur}
+      \field{number}{2}
+      \field{title}{{Ü}ber die Biegung der allseitig {ü}nterst{ü}tzten rechteckigen Platte unter Wirkung einer Einzellast}
+      \field{volume}{2}
+      \field{year}{1922}
+      \field{pages}{51\bibrangedash 54}
+      \range{pages}{4}
+      \verb{file}
+      \verb 19fa8c2f-7f8f-491b-9163-c0989bb20b64:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\19fa8c2f-7f8f-491b-9163-c0989bb20b64.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Wang.1947}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9863be24a97b81447df6a2ec4f9b800b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={C-T.},
+           giveni={C\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9863be24a97b81447df6a2ec4f9b800b}
+      \strng{fullhash}{9863be24a97b81447df6a2ec4f9b800b}
+      \strng{bibnamehash}{9863be24a97b81447df6a2ec4f9b800b}
+      \strng{authorbibnamehash}{9863be24a97b81447df6a2ec4f9b800b}
+      \strng{authornamehash}{9863be24a97b81447df6a2ec4f9b800b}
+      \strng{authorfullhash}{9863be24a97b81447df6a2ec4f9b800b}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{National Advisory Committee for Aeronautics, Washington D.C.}
+      \field{title}{Nonlinear large-deflection boundary-value problems of rectangular plates}
+      \field{year}{1947}
+      \verb{file}
+      \verb 5f3be4b4-9c81-4ba7-ab03-b93175dbb5a8:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\5f3be4b4-9c81-4ba7-ab03-b93175dbb5a8.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Shivakumar.1985}{article}{}
+      \name{author}{3}{}{%
+        {{hash=822c39a2d478db61becc98eab12cf044}{%
+           family={Shivakumar},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=b86541f50db61e96769986ffda750573}{%
+           family={Elber},
+           familyi={E\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8e7fe453a7869bce53914495cf44833d}{%
+           family={Illg},
+           familyi={I\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \strng{fullhash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \strng{bibnamehash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \strng{authorbibnamehash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \strng{authornamehash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \strng{authorfullhash}{f9c33887bbf0bd7832a3233bea99bc17}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the ASME}
+      \field{title}{Prediction of Impact Force and Duration Due to Low-Velocity Impact on Circular Composite Laminates}
+      \field{volume}{52}
+      \field{year}{1985}
+      \field{pages}{674\bibrangedash 680}
+      \range{pages}{7}
+      \verb{file}
+      \verb 3064926b-a911-42ed-8de8-999063091734:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\3064926b-a911-42ed-8de8-999063091734.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Kolvik.May2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=882a9bd1dda340d5ccba7381885fb976}{%
+           family={Kolvik},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Oslo}%
+      }
+      \list{location}{1}{%
+        {Oslo}%
+      }
+      \list{publisher}{2}{%
+        {Faculty of Mathematics}%
+        {Natural Sciences}%
+      }
+      \strng{namehash}{882a9bd1dda340d5ccba7381885fb976}
+      \strng{fullhash}{882a9bd1dda340d5ccba7381885fb976}
+      \strng{bibnamehash}{882a9bd1dda340d5ccba7381885fb976}
+      \strng{authorbibnamehash}{882a9bd1dda340d5ccba7381885fb976}
+      \strng{authornamehash}{882a9bd1dda340d5ccba7381885fb976}
+      \strng{authorfullhash}{882a9bd1dda340d5ccba7381885fb976}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Higher Order Shear Deformation Plate Theory}
+      \field{type}{Master's Thesis}
+      \field{year}{May / 2012}
+      \verb{file}
+      \verb a0d65283-1848-4d76-afd7-dec25f4f422b:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\a0d65283-1848-4d76-afd7-dec25f4f422b.pdf:pdf
+      \endverb
+      \keyw{Thesis}
+    \endentry
+    \entry{Onate.}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=0ac888b55276def4d10418f1d12052c5}{%
+           family={Onate},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ac888b55276def4d10418f1d12052c5}
+      \strng{fullhash}{0ac888b55276def4d10418f1d12052c5}
+      \strng{bibnamehash}{0ac888b55276def4d10418f1d12052c5}
+      \strng{authorbibnamehash}{0ac888b55276def4d10418f1d12052c5}
+      \strng{authornamehash}{0ac888b55276def4d10418f1d12052c5}
+      \strng{authorfullhash}{0ac888b55276def4d10418f1d12052c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Structural Analysis with the Finite Element Method}
+      \field{title}{Thick/Thin Plates. Reissner-Mindlin Theory}
+      \field{pages}{291\bibrangedash 381}
+      \range{pages}{91}
+      \verb{file}
+      \verb 9c1e89b6-a9ed-4bbb-8379-b727acada88f:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\9c1e89b6-a9ed-4bbb-8379-b727acada88f.pdf:pdf
+      \endverb
+      \keyw{Chapter}
+    \endentry
+    \entry{Djojodihardjo.2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e0b5429860ac2293f02c05c65d468c40}{%
+           family={Djojodihardjo},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cd7df88e0387d79a284a50292b23683f}{%
+           family={Mahmud},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f251cf920a70bc6c473dd13dad827d}
+      \strng{fullhash}{65f251cf920a70bc6c473dd13dad827d}
+      \strng{bibnamehash}{65f251cf920a70bc6c473dd13dad827d}
+      \strng{authorbibnamehash}{65f251cf920a70bc6c473dd13dad827d}
+      \strng{authornamehash}{65f251cf920a70bc6c473dd13dad827d}
+      \strng{authorfullhash}{65f251cf920a70bc6c473dd13dad827d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Aerospace Engineering}
+      \field{title}{Computational Modeling, Simulation, and Tailoring of Nonpenetrating Impact on a Generic Structure}
+      \field{year}{2015}
+      \field{pages}{04015061-1 - 04015061\bibrangedash 9}
+      \range{pages}{-1}
+      \verb{file}
+      \verb 72a0fcb0-545a-4fac-ba3f-0b63b02ebaf5:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\72a0fcb0-545a-4fac-ba3f-0b63b02ebaf5.pdf:pdf
+      \endverb
+      \keyw{Journal}
+    \endentry
+    \entry{Mingyu.2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=33a0fe7f78bbc2a823b556bbd25fa701}{%
+           family={Mingyu},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {RWTH Aachen}%
+      }
+      \list{location}{1}{%
+        {Aachen}%
+      }
+      \list{publisher}{1}{%
+        {SLA}%
+      }
+      \strng{namehash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \strng{fullhash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \strng{bibnamehash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \strng{authorbibnamehash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \strng{authornamehash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \strng{authorfullhash}{33a0fe7f78bbc2a823b556bbd25fa701}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of a semi-analytical approach for the application of large deflection plate theory on arbitrary load positions}
+      \field{type}{Mini-Thesis}
+      \field{year}{2019}
+      \verb{file}
+      \verb 976ae10e-89ec-4d9f-8c86-21b43e52d6dd:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\976ae10e-89ec-4d9f-8c86-21b43e52d6dd.PDF:PDF
+      \endverb
+    \endentry
+    \entry{Jacobs.2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=26bdc630599303994dd656e334b83391}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Systementwicklung der RWTH Aachen}%
+      }
+      \list{location}{1}{%
+        {Aachen}%
+      }
+      \list{publisher}{1}{%
+        {Druck {\&} Verlagshaus Mainz}%
+      }
+      \strng{namehash}{26bdc630599303994dd656e334b83391}
+      \strng{fullhash}{26bdc630599303994dd656e334b83391}
+      \strng{bibnamehash}{26bdc630599303994dd656e334b83391}
+      \strng{authorbibnamehash}{26bdc630599303994dd656e334b83391}
+      \strng{authornamehash}{26bdc630599303994dd656e334b83391}
+      \strng{authorfullhash}{26bdc630599303994dd656e334b83391}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{04/2019}
+      \field{title}{Maschinengestaltung III}
+      \field{year}{2019}
+      \verb{file}
+      \verb b3a9748a-c631-458c-8e4c-d08ce061d0b6:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\b3a9748a-c631-458c-8e4c-d08ce061d0b6.pdf:pdf
+      \endverb
+    \endentry
+    \entry{.}{book}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Structural Analysis with the Finite Element Method}
+      \true{nocite}
+    \endentry
+    \entry{Harris.2002}{book}{}
+      \name{author}{2}{}{%
+        {{hash=28a6378ad00955e8738375b23ecd6614}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=05664755d8b6806fb2e0a858e3dc6e68}{%
+           family={Piersol},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {McGraw-hill}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{a129708979d278d84d1000c291a6a162}
+      \strng{fullhash}{a129708979d278d84d1000c291a6a162}
+      \strng{bibnamehash}{a129708979d278d84d1000c291a6a162}
+      \strng{authorbibnamehash}{a129708979d278d84d1000c291a6a162}
+      \strng{authornamehash}{a129708979d278d84d1000c291a6a162}
+      \strng{authorfullhash}{a129708979d278d84d1000c291a6a162}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{isbn}{0-07-137081-1}
+      \field{title}{Harris' Shock and Vibration Handbook}
+      \field{year}{2002}
+      \true{nocite}
+      \verb{file}
+      \verb a499611b-67f3-48eb-bd8d-ddf576d6f004:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\a499611b-67f3-48eb-bd8d-ddf576d6f004.pdf:pdf
+      \endverb
+      \keyw{Book}
+    \endentry
+    \entry{Kelly.2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bb8be32b557b3ade64ebcae1568ccb56}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Auckland, NZ}%
+      }
+      \strng{namehash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \strng{fullhash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \strng{bibnamehash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \strng{authorbibnamehash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \strng{authornamehash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \strng{authorfullhash}{bb8be32b557b3ade64ebcae1568ccb56}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mechanics Lecture Notes: An Introduction to Solid Mechanics}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb 7e497087-fd7a-4192-b655-31b05a9ce0ef:C\:\\Users\\julia\\AppData\\Local\\Swiss Academic Software\\Citavi 6\\ProjectCache\\d1nhxc5w5h587qggi4ntypvyws0x1h5oyt40sniazkci5m2o\\Citavi Attachments\\7e497087-fd7a-4192-b655-31b05a9ce0ef.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
