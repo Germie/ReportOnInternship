@@ -217,6 +217,39 @@ Die Möglichkeit Messstellen umzubenennen, zu löschen oder hinzuzufügen wurden
 Um den Grenztemperaturplan einzulesen, der auch in Excel exportiert wird, konnten die bereits implementierten Methoden wiederverwendet werden. \\
 Analog zum Messstellenplan ist das hinzfügen, löschen und umbenennen oder editieren der Grenztemperaturen und Messstellen hier möglich. Dafür wird die eingelesene Information in einer Tabelle dargestellt. \\
 
+Die signifikanteste Zeiteinsparung wird bei dem Auswerten der Messungen erzielt. \\
+Um die Messungen einzulesen wurden Porsche-interne Routinen verwendet. Diese lesen aus den \textbf{.mf4}-Messdateien die relevanten Informationen wie Zeitskala, Werte, Messstellennamen und -info aus. \\
+Diese Informationen werden in einem Cell-Array gespeichert und können so abgerufen werden. \\
+Dann gleicht eine Funktion die Messstellennamen mit dem Messstellenplan und Grenztemperaturplan ab und speichert alle gefundenen Übereinstimmungen in ein weiteres Cell-Array, in dem auch der MSP mit den Grenztemperaturen ist, ab. \\
+Dieses Array ist vordefiniert als 3-D Array, welches in Richtung der Messstellen, oder der ersten Dimension, dynamisch erweitert werden kann. \\
+Obwohl das dynamische Erweitern von Arrays in MATLAB die Rechendauer verlängert, war dies die effizienteste Lösung.\\
+Die zweite Dimension ist definiert unde beinhaltet alle relevanten Daten der einzelnen Messstellen, sowie die jeweiligen Messstellen. \\
+
+\newpage
+Die dritte Dimension beinhaltet die Messdaten der Messstellen. Diese Dimension wurde als \textit{k} vordefiniert mit 
+
+\begin{equation}
+	k = 100
+\end{equation}
+
+Da MATLAB sonst die zum Teil aus mehreren Hundert Messstellen bestehenden Messungen dynamisch hinzufügen müsste, was zu einer signifikanten Verlängerung der Einlesezeit geführt hätte.\\
+Vor dem Einlesen jeder Messung wird der Benutzer gefragt, ob die Messung neue Messstellen beinhaltet. Diese können dann bei Bedarf aus Excel eingelesen und zu den existierenden Messstellen hinzugefügt werden. \\
+Die Messinformation der Messungen werden in einem zweiten Array abgespeichert, dass mit den gleichen Indizes arbeitet. So können jederzeit alle Information zusammen mit den Messungen abgerufen werden. \\
+
+\subsubsection{Auswertung}
+
+Für die Auswertung müssen nach dem einlesen aller Daten noch einige Parameter vom Benutzer angepasst werden, je nachdem welche Informationen betrachtet werden sollen.\\
+Dann wird aus den Daten eine PDF-Datei ertellt, die alle Messkurven mit den Informationen abbildet. \\
+
+\subsubsection{Schwierigkeiten in MATLAB}
+
+Das größte Problem mit MATLAB ist die langsame grafische Umgebung. \\
+Da jedoch die Konsolenumgebung schwieriger zu bedienen ist, wurde die grafische Lösung gewählt.\\
+
+Eine weitere Schwierigkeit stammt aus dem Erstellen einer Speicherungsdatei. Um nicht bei jeder Teilauswertung alle Dateien neu einlesen zu müssen, ist ein weiterer Schritt die Erstellung einer solchen Speicherdatei zu ermöglichen. \\
+Hierfür müssen alle Daten die in der GUI hinterlegt sind ausgelesen und abgespeichert werden.\\
+Dies wird bearbeitet, wenn am Ende des Projekts noch Zeit übrig ist. \\
+
 
 
 

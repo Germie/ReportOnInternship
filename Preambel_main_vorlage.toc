@@ -51,4 +51,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.5.3}Implementierung und Probleme in der Entwicklung}{15}{subsubsection.3.1.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literatur}{17}{section*.5}%
+\contentsline {subsubsection}{\numberline {3.1.5.4}Auswertung}{17}{subsubsection.3.1.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.5.5}Schwierigkeiten in MATLAB}{17}{subsubsection.3.1.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literatur}{19}{subsubsection.3.1.5.5}%

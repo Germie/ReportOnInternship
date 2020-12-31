@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.5.2)  28 DEC 2020 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.5.2)  31 DEC 2020 09:04
 entering extended mode
 **./Preambel_main_vorlage.tex
 (Preambel_main_vorlage.tex
@@ -2360,13 +2360,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-) [16] [17
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--227
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--252
+
+ []
+
+) [17] [18
 
 
 
+] [19
 
 
-] [18
+] [20
 
 
 ]
@@ -2395,21 +2421,22 @@ Package logreq Info: Writing requests to 'Preambel_main_vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45892 strings out of 480934
- 925321 string characters out of 2909683
+ 45904 strings out of 480934
+ 925870 string characters out of 2909683
  1807734 words of memory out of 3000000
- 60796 multiletter control sequences out of 15000+200000
- 564445 words of font info for 69 fonts, out of 3000000 for 9000
+ 60799 multiletter control sequences out of 15000+200000
+ 567373 words of font info for 73 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  67i,20n,117p,10186b,2283s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/julia/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julia/AppData/Roaming
-/MiKTeX/2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julia/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Preambel_main_vorlage.pdf (20 pages, 102311 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/julia/AppData/Roaming/MiKTe
+X/2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julia/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julia/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on Preambel_main_vorlage.pdf (22 pages, 115667 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
