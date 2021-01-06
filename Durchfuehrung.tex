@@ -7,7 +7,16 @@
 Der Anfang des Praktikums wurde mit Einarbeiten verbracht.\\
 Zu den verwendeten Tools gehören unter anderem PowerFlow, PowerTherm, ANSA, Star CCM+ und MATLAB.\\
 
-%bild von powerflow einfügen
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/powerflowlogo.png}
+			
+		\end{overpic}
+		\caption{PowerFlow von 3DS}
+		\label{fig:powerflow}	
+	\end{center}
+\end{figure}
+
 
 Vor allem PowerFlow spielt eine große Rolle, da es für Fahrzeugsimulationen geeignet ist. Das Programm baut auf der \textbf{Lattice-Boltzmann-Methode} auf.\\
 
@@ -33,15 +42,32 @@ Anschließend mussten die Randbediungen an den Simulationsvolumengrenzen definie
 
 Nachdem die Berechnung abgeschlossen ist, wird dann PowerCASE, ein Programm zur Darstellung der Simulationsergebnisse, verwendet um sich verschiedene relevante Parameter oder Geschwindigkeiten, Drücke und vieles mehr anzeigen zu lassen. 
 
-%hier overview von powerflow UI
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/powerflowinterface.png}
+			
+		\end{overpic}
+	\label{PowerFlowUI}
+	\caption{PowerFlow User-Interface}
+	\end{center}
+\end{figure}
+
 Nach dem NACA-Profil wurde als nächstes mit ANSA, einem Pre-Processing Tool, gearbeitet. In diesem können Geometrien für die Simulationen aufarbeitet und vernetzt werden. \\
-%hier ANSA einfügen
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/ANSA.png}
+			
+		\end{overpic}
+	\label{ansa}
+	\caption{ANSA Logo}
+	\end{center}
+\end{figure}
+
 Abgesehen von der recht veralteten Benutzeroberfläche ist ANSA was die Geometrievorbereitung für PowerFlow gut geeignet, da die Geometriegüte in PowerFlow für verwertbare Ergebnisse nicht perfekt sein muss. \\
 In ANSA wurde nun eine einfache Geländewagengeometrie aufgebaut, die dann in PowerFlow geladen und mit einem einfachen Simulationsvolumen berechnet wurde. Anschließend wurden die Ergebnisse wieder in PowerCASE ausgewertet und mit anderen Praktikanten verglichen.\\
 
 Wenn man PowerFlow mit Star CCM+ vergleicht kommt heraus, dass CCM+ zwar etwas genauere Ergebnisse liefert. Dafür benötigt es jedoch eine sehr viel höhere Güte an eingeladener Geometrie, was es für die aktuelle Anwendung zum Teil ungeeignet macht. \\
-%pros and cons of star and pwoerflow
-%make a comparison vector graph in Stuggi
 
 Am Ende der Einarbeitung wurde noch eine Einweisung in die Fahrzeughandhabung auf dem Werksgelände durchgeführt. Da die Fahrzeuge selbst auf der niedrigsten Austattungsstufe mehr \textbf{kW} entwickeln als die meisten andere Kraftwagen, ist hier besondere Vorsicht geboten. Vor allem, wenn man Fahranfänger ist. \\
 
@@ -59,8 +85,27 @@ Ein weiteres Problem, das speziell bei der Anwendung von VBA in der Microsoft Of
 \label{Makro1.0}
 
 In der ersten Version des Makros wurde in den entsprechenden Iterationsschleifen direkt auf das jeweilige Worksheet in Excel zugegriffen um die Messdaten auszulesen und vergleichen zu können. \\
-Die grundliegende Logik ist in Abbildung ()()() zu sehen.
-%\ref{}
+Die grundliegende Logik ist in Abbildung \ref{MakroLogik} zu sehen.
+
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/FlowchartMakro.eps}
+			\put(13,94){Makro Starten}
+			\put(10,22){Häufigkeit Berechnen}
+			\put(3,73){Keine Weitere}
+			\put(3,70){Auswertung Nötig}
+			\put(41,78){Extra Daten Auslesen}
+			\put(42,64){Extra Info Berechnen}
+			\put(37,50){Ergebnisse Zwischenspeichern}
+			\put(13,4){Makro Beenden}
+			\put(55,22){Ergebnisse Einschreiben}
+		\end{overpic}
+	\label{MakroLogik}
+	\caption{Makro-Logik}
+	\end{center}
+\end{figure}
+
 Da die Messdatenmengen des Versuchs aus mehreren tausend Messpunkten besteht, brauchte der Makro für die Iteration über alle Datenpunkte geschätzte 120 Stunden. Diese relativ lange Bearbeitungszeit war zwar zum Teil auf die Hardware zurückzuführen, wurde jedoch vor allem von dem oben beschriebenen Problem hervorgerufen. \\
 Bei einer Messungsreihe mit 5 verschiedenen Messumgebungen die aus je 12 Messtemperaturen bestehen wird die Datenmenge schnell sehr groß. Die Messdaten wurden auf eine uniforme Zeitbasis von 1 Hz bestimmt. Je nach Messumgebung variierte auch die Messdauer. In der Testumgebung wurden daher nur etwa 20 000 Datenpunkte ausgewertet.\\
 
@@ -125,10 +170,10 @@ Daher kann mit einer entsprechenden Workflow-Verbesserung auch eine Kostensenkun
 \newpage
 \subsection{Aktueller Workflow der Messungsauswertung}
 
-Der in \textbf{Datenauswertung in Excel} [\ref{Excel}] beschrieben Workflow beinhaltet nur einen Bruchteil der benötigten Arbeitschritte um verwertbare Ergebnisse aus dem Gesamtprozess zu gewinnen. \\
+Der in \textbf{Datenauswertung in Excel} [\ref{Excel}] beschrieben Workflow beinhaltet nur einen Bruchteil der benötigten Arbeitsschritte um verwertbare Ergebnisse aus dem Gesamtprozess zu gewinnen. \\
 
 Da die Messdaten nur der letzte Teil einer Arbeitskette darstellen, wird nun auf den gesamtem Prozess eingegangen. Dieser wird erläutert, die Problemstellen hervorgehoben und eine Lösung in MATLAB für den Workflow vorgestellt. \\
-%hier workflow diagramm einfügen
+
 
 \subsubsection{Messstellenplan}
 
@@ -223,7 +268,7 @@ Diese Informationen werden in einem Cell-Array gespeichert und können so abgeru
 Dann gleicht eine Funktion die Messstellennamen mit dem Messstellenplan und Grenztemperaturplan ab und speichert alle gefundenen Übereinstimmungen in ein weiteres Cell-Array, in dem auch der MSP mit den Grenztemperaturen ist, ab. \\
 Dieses Array ist vordefiniert als 3-D Array, welches in Richtung der Messstellen, oder der ersten Dimension, dynamisch erweitert werden kann. \\
 Obwohl das dynamische Erweitern von Arrays in MATLAB die Rechendauer verlängert, war dies die effizienteste Lösung.\\
-Die zweite Dimension ist definiert unde beinhaltet alle relevanten Daten der einzelnen Messstellen, sowie die jeweiligen Messstellen. \\
+Die zweite Dimension ist definiert und beinhaltet alle relevanten Daten der einzelnen Messstellen, sowie die jeweiligen Messstellen. \\
 
 \newpage
 Die dritte Dimension beinhaltet die Messdaten der Messstellen. Diese Dimension wurde als \textit{k} vordefiniert mit 
@@ -250,6 +295,35 @@ Eine weitere Schwierigkeit stammt aus dem Erstellen einer Speicherungsdatei. Um 
 Hierfür müssen alle Daten die in der GUI hinterlegt sind ausgelesen und abgespeichert werden.\\
 Dies wird bearbeitet, wenn am Ende des Projekts noch Zeit übrig ist. \\
 
+\newpage
+
+\section{FP4 - Messen, Prüfen, Qualitätskontrolle (3 Wochen)}
+
+\subsection{Messstellenpläne}
+
+Wie in Abschnitt \ref{FP7} ausgeführt, war die Auswertung der Messergebnisse nur ein Teil der Arbeit. \\
+Um die Messergebnisse für die Auswertung zu gewinnen, mussten Vorarbeit und vor allem Messungen getätigt werden.\\
+
+Bei dem Erstellen von Messstellenplänen war vor allem das Auswählen der Messstellennamen von großer Bedeutung. \\
+Die Namen müssen eindeutig und leicht Verständlich gewählt werden um sicherzustellen, dass auch Dritte den Plan schnell verstehen können. \\
+
+Die Bearbeitung und Erstellung dieser Pläne, die oftmals mehrere hundert Messstellen beinhalten, ist eine langsame und schlecht automatisierbare Tätigkeit. 
+
+\subsection{Messungen}
+
+Ein Teil der Messungen kann auf der firmeneigenen Teststrecke in Weissach durchgeführt werden.
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/TestgelaendeWeissacg.jpg}
+			
+		\end{overpic}
+	\label{testweissach}
+	\caption{Die Teststrecke in Weissach}
+	\end{center}
+\end{figure}
+
+Die Rundstreckentests werden zum Teil vor Ort durchgeführt. Wenn ein wärmeres Klima oder andere Streckenbedingungen erforderlich sind, wird auf eine andere Teststrecke im südlichen Teil von Europa ausgewichen.\\
 
 
 

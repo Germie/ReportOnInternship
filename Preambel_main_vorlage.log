@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.5.2)  31 DEC 2020 09:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  6 JAN 2021 10:52
 entering extended mode
 **./Preambel_main_vorlage.tex
 (Preambel_main_vorlage.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
+L3 programming layer <2020-06-03>
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-script\scrbook.cls
 Document Class: scrbook 2020/04/19 v3.30 KOMA-Script document class (book)
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/koma-script\scrkbase.sty
@@ -26,9 +26,8 @@ Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box45
 )
-Package tocbasic Info: omitting babel extension for `toc'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 137.
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
 Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             This is correct!
 (scrbook)             Internally I'm using `fontsize=12pt'.
@@ -137,14 +136,14 @@ Class scrbook Info: using compatibility default `afterindent=bysign'
 \abovecaptionskip=\skip60
 \belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box46
-Package tocbasic Info: omitting babel extension for `lof'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6887.
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6887.
+
 \scr@dte@figure@maxnumwidth=\skip62
 \c@figure=\count175
-Package tocbasic Info: omitting babel extension for `lot'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6908.
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6908.
+
 \scr@dte@table@maxnumwidth=\skip63
 \c@table=\count176
 Class scrbook Info: Using old \@makefntext due to compatibility level
@@ -220,11 +219,19 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@posthook=\toks21
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2020/02/28 3.41 The Babel package
+Package: babel 2020/05/13 3.44 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2020/02/28 3.41 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count183
+\U@D=\dimen143
+\l@babelnohyphens=\language78
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count184
+
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -237,16 +244,6 @@ Language: british 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2020/02/28 3.41 Babel common definitions
-\babel@savecnt=\count183
-\U@D=\dimen143
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
-\bbl@readstream=\read2
-\bbl@dirlevel=\count184
-)
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
@@ -737,24 +734,25 @@ Package: wrapfig 2003/01/31  v 3.6
 Package: scrhack 2020/04/19 v3.30 KOMA-Script package (hacking other packages)
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/xpatch\xpatch.sty
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-03-06 L3 programming layer (loader) 
+(C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-06-03 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count294
 \l__pdf_internal_box=\box110
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
-Package: xparse 2020-03-06 L3 Experimental document command parser
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse-generic.tex"
 \l__xparse_current_arg_int=\count295
 \g__xparse_grabber_int=\count296
 \l__xparse_m_args_int=\count297
 \l__xparse_v_nesting_int=\count298
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count299
 ))
@@ -808,19 +806,19 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xfrac\xfrac.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
-Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xtemplate\xtemplate.sty"
-Package: xtemplate 2020-03-06 L3 Experimental prototype document functions
+Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen266
 \l__xtemplate_tmp_int=\count307
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip89
 )
-Package: xfrac 2020-03-06 L3 Experimental split-level fractions
+Package: xfrac 2020-05-15 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box111
 \l__xfrac_tmp_box=\box112
 \l__xfrac_denominator_bot_sep_dim=\dimen267
@@ -1220,10 +1218,10 @@ File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen329
 \captionmargin@=\dimen330
@@ -1399,13 +1397,13 @@ Package scrkbase Info: You've told me to redefine the font selection of the
 \lst@maxwidth=\dimen341
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count348
 \lst@skipnumbers=\count349
 \lst@framebox=\box148
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
-File: listings.cfg 2019/09/10 1.8c listings configuration
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package scrhack Info: loading listings hack on input line 207.
 
@@ -1415,10 +1413,10 @@ istings)
 Package tocbasic Info: setting babel extension for `lol' on input line 143.
 Package scrhack Info: redefining \lstlistoflistings on input line 143.
 )
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
@@ -1481,7 +1479,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip102
 \blx@bcfin=\read5
 \blx@bcfout=\write4
-\blx@langwohyphens=\language78
+\blx@langwohyphens=\language79
 \c@mincomprange=\count392
 \c@maxcomprange=\count393
 \c@mincompwidth=\count394
@@ -1643,7 +1641,7 @@ Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             need that hack, on input line 258.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
@@ -1661,7 +1659,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 \Hy@pagecounter=\count475
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -1672,15 +1670,15 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count476
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
+Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count477
-LaTeX Info: Redefining \url on input line 5159.
+LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen343
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/generic/bitset\bitset.sty
@@ -1694,22 +1692,22 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count478
 \Field@Width=\dimen344
 \Fld@charsize=\dimen345
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 \Hy@abspage=\count479
 \c@Item=\count480
 \c@Hfootnote=\count481
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
 (C:\Users\julia\AppData\Roaming\MiKTeX\2.9\tex/latex/atveryend\atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
@@ -2156,250 +2154,318 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
+<Pictures/Pictures/powerflowlogo.png, id=95, 599.23875pt x 291.0875pt>
+File: Pictures/Pictures/powerflowlogo.png Graphic file (type png)
+<use Pictures/Pictures/powerflowlogo.png>
+Package pdftex.def Info: Pictures/Pictures/powerflowlogo.png  used on input lin
+e 12.
+(pdftex.def)             Requested size: 455.24411pt x 221.1444pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
-
- []
-
-
-Underfull \vbox (badness 1173) has occurred while \output is active []
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
  [5
 
 
 
-]
-Overfull \hbox (0.2599pt too wide) in paragraph at lines 34--35
+ <./Pictures/Pictures/powerflowlogo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+
+Overfull \hbox (0.2599pt too wide) in paragraph at lines 43--44
 []\T1/ptm/m/n/12 Nachdem die Berech-nung abgeschlossen ist, wird dann Power-CAS
 E, ein Pro-gramm zur Darstel-
  []
 
+<Pictures/Pictures/powerflowinterface.png, id=104, 1045.65656pt x 457.71pt>
+File: Pictures/Pictures/powerflowinterface.png Graphic file (type png)
+<use Pictures/Pictures/powerflowinterface.png>
+Package pdftex.def Info: Pictures/Pictures/powerflowinterface.png  used on inpu
+t line 47.
+(pdftex.def)             Requested size: 455.24411pt x 199.27684pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+<Pictures/Pictures/ANSA.png, id=112, 325.215pt x 156.585pt>
+File: Pictures/Pictures/ANSA.png Graphic file (type png)
+<use Pictures/Pictures/ANSA.png>
+Package pdftex.def Info: Pictures/Pictures/ANSA.png  used on input line 59.
+(pdftex.def)             Requested size: 455.24411pt x 219.20793pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [7 <./Pictures/Pictures/powerflowinterface.png> <./Pictures/Pictures/ANSA.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 78--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
+Package caption Warning: \label without proper reference on input line 104.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `MakroLogik' on page 9 undefined on input line 88.
+
+Package epstopdf Info: Source file: <Pictures/Pictures/FlowchartMakro.eps>
+(epstopdf)                    date: 2021-01-05 16:31:26
+(epstopdf)                    size: 530770 bytes
+(epstopdf)             Output file: <Pictures/Pictures/FlowchartMakro-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2021-01-05 16:32:19
+(epstopdf)                    size: 13901 bytes
+(epstopdf)             Command: <epstopdf --outfile=Pictures/Pictures/Flowchart
+Makro-eps-converted-to.pdf Pictures/Pictures/FlowchartMakro.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Pictures/Pictures/FlowchartMakro-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<Pictures/Pictures/FlowchartMakro-eps-converted-to.pdf, id=126, 243.91125pt x 2
+83.0575pt>
+File: Pictures/Pictures/FlowchartMakro-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use Pictures/Pictures/FlowchartMakro-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/Pictures/FlowchartMakro-eps-converted-to.pdf 
+ used on input line 93.
+(pdftex.def)             Requested size: 455.24411pt x 528.31711pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+[10 <./Pictures/Pictures/FlowchartMakro-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
 
  []
 
 
-Underfull \vbox (badness 2269) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Overfull \hbox (7.37611pt too wide) in paragraph at lines 82--84
+Overfull \hbox (7.37611pt too wide) in paragraph at lines 127--129
 \T1/ptm/m/n/12 Mit dieser Mat-rix und dem ents-prechenden Graphen können dann d
 ie Ge-spräche mit den Zuliefer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-
-Overfull \hbox (5.43135pt too wide) in paragraph at lines 117--121
+Overfull \hbox (5.43135pt too wide) in paragraph at lines 162--166
 \T1/ptm/m/n/12 Da dieser Ges-amt-prozess wie oben aufge-führt in-ef-fiz-ient is
 t, be-st-and einer der weit-eren Aufgaben
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+[13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--139
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 180--184
 
  []
 
 
-Overfull \hbox (3.01935pt too wide) in paragraph at lines 148--152
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+
+Overfull \hbox (3.01935pt too wide) in paragraph at lines 193--197
 \T1/ptm/m/n/12 Daher müssen um die Mes-sun-gen zuzuordnen erst die rel-ev-anten
  Kanäle mit Hilfe eines Porsche-
  []
 
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--174
+Underfull \hbox (badness 10000) in paragraph at lines 213--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
 
-Overfull \hbox (12.89487pt too wide) in paragraph at lines 188--190
+Overfull \hbox (12.89487pt too wide) in paragraph at lines 233--235
 \T1/ptm/m/n/12 ev-anten Messs-tel-len aus-ge-lesen, won-ach der Gren-ztem-per-a
 t-ur-plan wieder aus dem Arbeitsspeicher
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 233--235
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 191--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--198
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Overfull \hbox (2.39635pt too wide) in paragraph at lines 208--216
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+Overfull \hbox (2.39635pt too wide) in paragraph at lines 253--261
 \T1/ptm/m/n/12 Zwischen diesen Dat-en-typen gab es bei der Spal-ten-num-mer-i-e
 r-ung und -benennung un-ter-schiede,
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--227
+Underfull \hbox (badness 10000) in paragraph at lines 265--272
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
-) [17] [18
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--297
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+
+ []
+
+<Pictures/Pictures/TestgelaendeWeissacg.jpg, id=191, 1606.0pt x 617.30624pt>
+File: Pictures/Pictures/TestgelaendeWeissacg.jpg Graphic file (type jpg)
+<use Pictures/Pictures/TestgelaendeWeissacg.jpg>
+Package pdftex.def Info: Pictures/Pictures/TestgelaendeWeissacg.jpg  used on in
+put line 318.
+(pdftex.def)             Requested size: 455.24411pt x 174.98276pt.
+) [21 <./Pictures/Pictures/TestgelaendeWeissacg.jpg>] [22] [23
 
 
 
-] [19
 
 
-] [20
+] [24
 
 
 ]
-
-Package caption Warning: Unused \captionsetup[figure] on input line 132.
-See the caption package documentation for explanation.
-
 
 Package caption Warning: Unused \captionsetup[table] on input line 134.
 See the caption package documentation for explanation.
@@ -2416,27 +2482,30 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 439.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 439.
 Package rerunfilecheck Info: File `Preambel_main_vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'Preambel_main_vorlage.run.xml'.
 \openout1 = `Preambel_main_vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45904 strings out of 480934
- 925870 string characters out of 2909683
- 1807734 words of memory out of 3000000
- 60799 multiletter control sequences out of 15000+200000
- 567373 words of font info for 73 fonts, out of 3000000 for 9000
+ 46123 strings out of 480801
+ 930045 string characters out of 2905436
+ 1814372 words of memory out of 3000000
+ 61130 multiletter control sequences out of 15000+200000
+ 570095 words of font info for 75 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  67i,20n,117p,10186b,2283s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/julia/AppData/Roaming/MiKTe
-X/2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julia/AppData/Roaming/MiKTeX/2
-.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julia/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on Preambel_main_vorlage.pdf (22 pages, 115667 bytes).
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
+r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Preambel_main_vorlage.pdf (26 pages, 1331222 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
