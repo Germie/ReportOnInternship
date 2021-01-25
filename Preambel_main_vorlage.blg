@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Preambel_main_vorlage.blg'
-[97] biber-MSWIN64:322> INFO - === 
-[119] Biber.pm:415> INFO - Reading 'Preambel_main_vorlage.bcf'
-[294] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[319] Biber.pm:4256> INFO - Processing section 0
-[319] Utils.pm:75> INFO - Globbing data source 'Biblio.bib'
-[331] Utils.pm:91> INFO - Globbed data source 'Biblio.bib' to Biblio.bib
-[348] Biber.pm:4455> INFO - Looking for bibtex format file 'Biblio.bib' for section 0
-[352] bibtex.pm:1653> INFO - LaTeX decoding ...
-[385] bibtex.pm:1471> INFO - Found BibTeX data source 'Biblio.bib'
-[462] Utils.pm:304> WARN - year field 'May / 2012' in entry 'Kolvik.May2012' is not an integer - this will probably not sort properly.
-[497] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[498] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[498] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[498] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[511] bbl.pm:652> INFO - Writing 'Preambel_main_vorlage.bbl' with encoding 'UTF-8'
-[519] bbl.pm:755> INFO - Output to Preambel_main_vorlage.bbl
-[521] Biber.pm:128> INFO - WARNINGS: 1
+[114] biber-MSWIN64:322> INFO - === 
+[136] Biber.pm:415> INFO - Reading 'Preambel_main_vorlage.bcf'
+[311] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[337] Biber.pm:4256> INFO - Processing section 0
+[338] Utils.pm:75> INFO - Globbing data source 'Biblio.bib'
+[350] Utils.pm:91> INFO - Globbed data source 'Biblio.bib' to Biblio.bib
+[366] Biber.pm:4455> INFO - Looking for bibtex format file 'Biblio.bib' for section 0
+[369] bibtex.pm:1653> INFO - LaTeX decoding ...
+[374] bibtex.pm:1471> INFO - Found BibTeX data source 'Biblio.bib'
+[399] Utils.pm:304> WARN - year field '18.01.2021' in entry 'PTPark' is not an integer - this will probably not sort properly.
+[410] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[410] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[410] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[410] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[417] bbl.pm:652> INFO - Writing 'Preambel_main_vorlage.bbl' with encoding 'UTF-8'
+[418] bbl.pm:755> INFO - Output to Preambel_main_vorlage.bbl
+[419] Biber.pm:128> INFO - WARNINGS: 1

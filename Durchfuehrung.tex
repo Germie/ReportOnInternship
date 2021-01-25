@@ -363,7 +363,166 @@ Für jede Messung wurde ein Dokument angelegt, auf dem alle relevanten Informati
 	\end{center}
 \end{table}
 
-Wie in Tabelle \ref{MessTable} dargestellt, müssen am Anfang der Messung einige Daten erfasst werden.
+Wie in Tabelle \ref{MessTable} dargestellt, müssen am Anfang der Messung einige Daten erfasst werden. Die passiert am Anfang der Messung. \\
+Sobald diese Daten erfasst worden sind, beginnt der Test. Die Rundenzeiten werden über eine einfache Stop-Uhr gemessen. Die Rundenzeiten sollten während einer Messung ungefähr gleich sein um zu gewährleisten, dass sich keine signifikanten Parameter während der Messung geändert haben. \\
+Außerdem gilt die Rundenzeit als Indikator, dass dem Fahrer nichts passiert ist. Sollte die Zeit stark überschritten werden, kann man den bereitstehenden Rettungskräften sofort Bescheid geben.\\
+
+\subsubsection{Messungsarten}
+
+Die Messungen lassen sich in einige übergreifende Kategorien aufteilen: 
+
+\begin{itemize}
+	\item{Rundstreckentests}
+	\item{Klimakanaltests}
+	\item{Windkanaltests}
+	\item{Hochgeschwindigkeitstests}
+	\item{Bergfahrttests}
+\end{itemize}
+
+Je nach Messungsart muss das Fahrzeug nach der Messung noch aufgeheizt werden. Hierfür wird eine Aufheizbox verwendet. \\
+Das Fahrzeug bleibt hierbei nach der Messung so lange in der Box stehen, bis die Temperaturen wieder anfangen zu fallen. So wird gewährleistet, dass die Komponenten ihre größtmögliche Wärme entwickeln können da in der Box nur geringer Luftaustausch mit der Umgebung stattfinden kann.\\
+
+Hierdurch wird das sogenannte "Worst-Case-Szenario" dargestellt, in dem der Kunde das Fahrzeug unter Volllast betreibt und dann an einem windstillen Ort abstellt. \\
+Aufgrund einer ausreichend genauen Annäherung kann das Messergebnis auch linear auf Umgebungstemperaturen wie in Gleichung \ref{TUMGlin} verrechnet werden.
+
+\begin{equation}
+	T_{UMG} = 50 ^{\circ} C
+	\label{TUMGlin}
+\end{equation}
+
+Nachdem die Messdaten aus den diversen Messcomputern ausgelesen wurden, müssen erst einmal einige Zeitstempel aus den Daten ausgelesen werden. Dies dient dazu, die Fahrtphasen zu differenzieren.\\
+Hierfür hat Porsche ein internes Software-Tool. In diesem sind schon einige Grundfunktionen zur Datenauslesung implementiert. Unter anderem kann man sich die Messkurven grafisch darstellen lassen und dann aus diesen Grafiken beliebige Messpunkte auslesen. Des weiteren ist es möglich, die Messdaten auf bestimmte Zeitintervalle zu begrenzen und so nur die benötigten Daten auszulesen.\\
+Wenn nur einzelne Punkte zwischen Messungen verglichen werden sollen, ist es effizienter die benötigten Punkte direkt in diesem Programm zu identifizieren und auszulesen, da es grafisch gemacht werden kann. \\
+Exportiert man die Ergebnisse erst einmal in Excel oder einem anderen Programm, hat man nur noch die Rohdaten vorliegen und müsste sich so aus einer beliebig großen Matrix die Datenpunkte zusammensuchen. \\
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/NeuerTaycanTest.jpg}
+		
+		\end{overpic}
+		\label{TaycanTest}
+		\caption{Beispielbild: Der neue Taycan beim Test auf dem Nürburgring\textsuperscript{1}}
+		\small\textsuperscript{[1] Quelle https://newsroom.porsche.com/de/2019/produkte/porsche-taycan-rekord-nuerburgring-nordschleife-7-42-minuten-18439.html}
+		
+	\end{center}
+\end{figure}
+
+Bei einer Auswertung bei der verschiedene Kühlerkonfigurationen und deren Auswirkung auf die Motoransauglufttemperatur untersucht werden sollte, war dieses Vorgehen vorteilhaft. Da nur bestimmte Betriebspunkte für den Vergleich relevant sind, konnte so einiges an Auswertungszeit gespart werden.\\
+
+Für die generelle Messungsauswertung wurden die Messdaten meistens in Excel exportiert und dort weiter ausgewertet.
+
+\subsubsection{Datenverarbeitung in Excel}
+
+Um Aussagen aus den Messdaten zu generieren, wurde diese erst einmal aufgearbeitet. Die Abtastraten und ähnliche Parameter konnten vor dem Export in Excel angepasst und auf die gleiche Zeitbasis gebracht werden. \\
+Dies wurde durch Interpolation bei niedrigeren Abtastraten, soweit angebracht, oder bilden des Durchschnitts bei höheren Abtastraten erreicht. Dann konnten die alle benötigten Datenreihen der relevanten Messstellen ausgewählt und exportiert werden. \\
+
+Aus diesem Excel-Worksheet kann man dann die Werte und Zeitachsen in eine entweder selbst erstellte oder bereits vorhandene Auswertungstabelle in Excel einfügen und daraus die Messkurven und Maxima, Minima und Durchschnittstemperaturen bestimmen.
+
+\subsubsection{Auswertung und Weiterverarbeitung der Daten}
+
+Die in Excel erstellten Auswertungen sind meistens für die Bauteilverantwortlichen genügend. Jedoch müssen die Maßnahmen auch von den Vorgesetzten evaluiert und abgesegnet werden.\\
+
+Hierfür lohnt es sich, die wichtigsten Daten noch einmal schnell verständlich zusammen zu fassen und über z.B. PowerPoint zu einer Präsentation zu verarbeiten.\\
+Diese kann dann den Entscheidungsträgern vorgestellt werden. 
+
+\subsubsection{Messtechnik}
+
+Die in den Messungen verwendete Technik stellt sich aus verschiedenen Herstellern zusammen. \\
+Einer der Hersteller ist \textbf{ETAS}. Die von ETAS vertriebene INCA-Softwareumgebung muss vor der Messung entsprechend eingestellt und kalibriert werden.\\
+In \textbf{INCA} können durch eine integrierte Datenbank Voreinstellungen wiederverwendet werden. \\
+Außerdem kann durch die INCA die fahrzeug-eigene Regeltechnik angesteuert werden. Bei manchen Messungen werden die Kühler und andere Funktionen des Fahrzeug individuell eingestellt um verschiedene Szenarien abzubilden. \\
+Die Software wird hier auf einem eigenem Messsystem betrieben, um mögliche Schwierigkeiten die aus den Schnittstellen mit herkömmlichen Betriebsysteme entstehen könnten vorzubeugen.
+
+\begin{figure}
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/INCASoftware.jpg}
+			
+		\end{overpic}
+	\label{INCA}
+	\caption{Die INCA-Benutzeroberfläche}
+	\small\textsuperscript{[2] Quelle: https://www.etas.com/de/portfolio/inca.php}
+	\end{center}
+\end{figure}
 
 
+\newpage
+\section{FP3 - Instandhaltung, Wartung und Reparatur (x Wochen)}
+
+Die Fahrzeuge auf dem Gelände des Entwicklungszentrums in Weissach müssen möglichst in einem fahrbereiten Zustand gehalten werden. \\
+Hierzu gehört auch für die Fahrzeuge Transportaufträge zu anderen Standorten oder Reifenwechselaufträge vor Ort zu erstellen. Die Wagen müssen dann auch zu ihren jeweiligen Zielen gebracht und dort übergeben werden.
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/CarsOnEZW.jpg}
+			
+		\end{overpic}
+		\label{INCA}
+		\caption{Geparkte Wagen am Entwicklungszentrum Weissach}
+		\small\textsuperscript{[3] Quelle: https://www.krzbb.de/krz65111725728-13-Rueckspiegel-Neue-E-Motionen.html}
+	\end{center}
+\end{figure}
+
+\subsection{Fahrzeugverwaltung mit SAP}
+
+Um mit der SAP-Software in der Porsche AG-Umgebung arbeiten zu können, musste zuerst ein Antrag für die benötigte Berechtigung erstellt werden. \\
+Nachdem dieser genehmigt wurde, konnte mit dem Verwalten der Versuchsfahrzeuge begonnen werden. \\
+
+Wenn ein Wagen für einen Versuch an einem anderen Standort benötigt wird, kann dieser Aufgrund der Geheimhaltungsvereinbarung nicht zu diesem Standort gefahren werden. Stattdessen wird er über ein Logistikunternehmen dorthin verfrachtet. \\
+Die Aufträge hierfür, genannt Transportaufträge, werden über das SAP System erstellt. In dem Auftrag ist der Wagen mit seiner Kennung, dem Verantwortlichen, der Kostenstelle und weiterer notwendiger Information hinterlegt. \\
+Bevor er jedoch abgeholt werden kann muss dafür gesorgt werden, dass der Wagen so gut wie möglich auf den Test oder die Erprobung vorbereitet ist. Hierfür muss der Wagen noch getankt werden und überprüft werden, dass die richtige Bereifung aufgezogen ist. \\
+Im Fahrtenbuch muss außerdem die genaue Kilometerzahl hinterlegt werden. \\
+Dann kann der Wagen zur Abholstation auf dem Entwicklungszentrum gebracht werden. \\
+
+Sollten die Reifen noch gewechselt werden müssen, muss auch hierfür ein Antrag in SAP erstellt werden. Die Reifen werden jedoch vor Ort gewechselt, weshalb die Prozedur meist schneller und einfacher von statten geht als ein Transport. \\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/SAP.png}
+			
+		\end{overpic}
+		\label{SAP}
+		\caption{Das Logo der SAP SE}
+		\small\textsuperscript{[3] Quelle: https://de.wikipedia.org/wiki/SAP}
+	\end{center}
+\end{figure}
+
+Im SAP System sind die Fahrzeuge alle mit Equipmentnummern versehen, über die man sofort jedes Fahrzeug finden kann. \\
+Zusammen mit den Fahrzeugdaten, dem Nummernschild und anderen relevanten Informationen sind außerdem das Gewicht und das Volumen hinterlegt. Dies dient dem Zweck, den zuständigen Speditionen mitzuteilen mit welchen Geräten sie anrücken müssen um die Fahrzeuge zu verladen. \\
+
+Ein Problem mit der Auftragserstellung ist, dass die Aufträge sehr schnell weiterverarbeitet werden. Hierdurch wird Fehlerbehebung recht aufwändig. Um einen bereits weiterverarbeiteten Auftrag im Nachhinein abzuändern, muss man nun die relevante Stelle anrufen und den Auftrag wieder zurückschicken lassen. Je nachdem wie die Kollegen erreichbar sind, kann dieser Prozess relativ viel Zeit in Anspruch nehmen, welche dann nicht mehr für andere eventuell wichtigere Dinge verwendet werden kann.\\
+
+\subsection{Fahrzeugumbauten für Testzwecke}
+
+Da die Wagen und Prototypen oftmals für die jeweiligen Testzwecke umgebaut werden müssen, gibt es im Entwicklungszentrum einige Werkstätten die sich auf verschiedene Bereiche des Fahrzeugs spezialisieren. \\
+Schon während der Erstellung der Messstellenpläne ist der Austausch mit diesen Werkstätten wichtig. Die geforderten Messstellen müssen technisch umsetzbar und einbaubar sein. \\
+
+Wenn dieser Prozess erfolgreich abgelaufen ist, wird ein Umrüstungsauftrag erstellt. Dann wird der Wagen zu der jeweiligen Werkstatt gebracht und dort von professionellen Arbeitern genau auf die Anforderungen der Messingenieure zugerichtet. \\
+
+Nach den Testläufen müssen die Fahrzeuge wieder in ihren Ursprungszustand zurückgebaut werden. Hierfür muss ein neuer Auftrag erstellt und das Fahrzeug wieder zu der gleichen Werkstatt gebracht werden. \\
+
+\subsection{Fahrzeuginstandhaltung und Betriebsbereitschaft}
+
+Während ein Fahrzeug im Besitz der Abteilung ist, ist es deren und damit die Verantwortung des Autors diese Fahrzeuge in einem betriebsbereiten Zustand zu halten.\\
+Jeder Wagen hat ein Fahrtenbuch, in welchem die Kilometeranzahl und Fahrerinformationen notiert werden müssen. \\
+Sollte der Wagen Kraftstoff benötigen, kann dieser auf der hauseigenen Tankstelle getankt werden. Hierfür hat jeder Wagen eine spezielle Keycard. Ohne diese Karte kann der Wagen nicht getankt werden. \\
+
+Bei der Tankstelle können auch die Reifen aufgepumpt werden, insofern dies notwendig ist. \\
+
+Da es sich bei den Fahrzeugen oft um Prototypen oder Vor-Serienfahrzeuge handelt, müssen diese mit Vorsicht behandelt werden. \\
+Um das Fotografieren der Fahrzeuge während sie auf dem Gelände stehen zu vermeiden, hat das Entwicklungszentrum Weissach ein speziell Blick geschütztes Parkhaus.\\
+Um in diesem Parkhaus parken zu können, muss eine Genehmigung beantragt werden. Nachdem diese genehmigt ist, wird der RFID-Transponder des Fahrzeugs an der Parkhauspforte freigeschaltet. Sobald das Fahrzeug nicht mehr von der Abteilung benötigt wird, oder es zur Verschrottung freigegeben wird, wird der RFID-Transponder wieder gesperrt und das Fahrzeug muss aus dem Parkhaus entfernt werden. \\
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{overpic}[width=\linewidth]{Pictures/Pictures/PTParkhaus.jpeg}
+			
+		\end{overpic}
+		\label{PT}
+		\caption{Das Prototypenparkhaus von Innen}
+		\small\textsuperscript{[4] Quelle: https://newsroom.porsche.com/de/2021/unternehmen/porsche-entwicklungszentrum-weissach-christophorus-397-23144.html}
+	\end{center}
+\end{figure}  
+
+Da in diesem Parkhaus und seinem Zwilling in Hemmingen nur insgesamt 375 Plätze zur Verfügung stehen und diese nicht mehr ausreichen, wurde in Weissach am Anfang 2021 ein neues Parkhaus in Betrieb genommen. \\
+In diesem sind 1147 Plätze, sowie 400 Ladesäulen vorhanden um alle Fahrzeuge die auf dem Gelände sind unterstellen zu können \cite{PTPark}. \\
 
