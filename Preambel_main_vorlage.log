@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  25 JAN 2021 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.16)  27 JAN 2021 17:44
 entering extended mode
 **./Preambel_main_vorlage.tex
 (Preambel_main_vorlage.tex
@@ -2657,7 +2657,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--528
 
  []
 
-) [30 <./Pictures/Pictures/PTParkhaus.jpeg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--531
+
+ []
+
+[30 <./Pictures/Pictures/PTParkhaus.jpeg>]
+<Pictures/Pictures/Tarnung.jpg, id=273, 599.08026pt x 390.59082pt>
+File: Pictures/Pictures/Tarnung.jpg Graphic file (type jpg)
+<use Pictures/Pictures/Tarnung.jpg>
+Package pdftex.def Info: Pictures/Pictures/Tarnung.jpg  used on input line 534.
+
+(pdftex.def)             Requested size: 455.24411pt x 296.81635pt.
+
+
+Package caption Warning: \label without proper reference on input line 538.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `Tarnung' on page 31 undefined on input line 544.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
+
+ []
+
+) [31 <./Pictures/Pictures/Tarnung.jpg>] [32
+
+
+
+]
 Overfull \hbox (176.24762pt too wide) in paragraph at lines 425--425
 []\T1/ptm/m/n/12 Entwicklungszentrum Weis-sach: Die Herzkam-mer von Porsche. ht
 tps://newsroom.porsche.com/de/2021/unternehmen/porsche-
@@ -2669,13 +2698,10 @@ Overfull \hbox (6.01625pt too wide) in paragraph at lines 425--425
  -[] entwicklungszentrum -[]
  []
 
-[31
+[33
 
 
-
-
-
-] [32
+] [34
 
 
 ]
@@ -2693,6 +2719,9 @@ Package rerunfilecheck Info: File `Preambel_main_vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'Preambel_main_vorlage.run.xml'.
@@ -2700,10 +2729,10 @@ Package logreq Info: Writing requests to 'Preambel_main_vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46180 strings out of 480801
- 930310 string characters out of 2905436
- 1815447 words of memory out of 3000000
- 61160 multiletter control sequences out of 15000+200000
+ 46190 strings out of 480801
+ 930525 string characters out of 2905436
+ 1815555 words of memory out of 3000000
+ 61166 multiletter control sequences out of 15000+200000
  587989 words of font info for 112 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  67i,20n,117p,10186b,2283s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2714,9 +2743,9 @@ pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Preambel_main_vorlage.pdf (34 pages, 2077932 bytes).
+Output written on Preambel_main_vorlage.pdf (36 pages, 3584588 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
