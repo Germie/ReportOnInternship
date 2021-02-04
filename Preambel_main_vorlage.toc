@@ -85,4 +85,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Arbeiten am Fahrzeug}{32}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literatur}{33}{subsection.3.4.1}%
+\contentsline {chapter}{Literatur}{35}{figure.caption.18}%
