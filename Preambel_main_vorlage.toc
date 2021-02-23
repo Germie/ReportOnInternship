@@ -1,6 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
 \babel@toc {british}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Die Porsche AG}{1}{chapter.1}%
@@ -85,4 +86,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Arbeiten am Fahrzeug}{32}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literatur}{35}{figure.caption.18}%
+\contentsline {chapter}{Literatur}{35}{figure.caption.19}%
