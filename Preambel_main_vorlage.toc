@@ -74,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2.6}Messtechnik}{26}{subsubsection.3.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}FP3 - Instandhaltung, Wartung und Reparatur (x Wochen)}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.3}FP3 - Instandhaltung, Wartung und Reparatur (3 Wochen)}{27}{section.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Fahrzeugverwaltung mit SAP}{27}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Fahrzeuginstandhaltung und Betriebsbereitschaft}{29}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}FP6 - Montage}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.4}FP6 - Montage (1 Woche)}{32}{section.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Arbeiten am Fahrzeug}{32}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
